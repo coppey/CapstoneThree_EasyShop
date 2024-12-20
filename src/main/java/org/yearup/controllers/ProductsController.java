@@ -29,16 +29,12 @@ public class ProductsController
     public List<Product> search(@RequestParam(name="cat", required = false) Integer categoryId,
                                 @RequestParam(name="minPrice", required = false) BigDecimal minPrice,
                                 @RequestParam(name="maxPrice", required = false) BigDecimal maxPrice,
-                                @RequestParam(name="color", required = false) String color
-                                )
-    {
-        try
-        {
-            return productDao.search(categoryId, minPrice, maxPrice, color);
-        }
-        catch(Exception ex)
-        {
-            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
+                                @RequestParam(name="color", required = false) String color,
+                                @RequestParam(name = "name", required = false) String name) {
+        try {
+            return productDao.search(categoryId, minPrice, maxPrice, color, name);
+        } catch(Exception ex) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Something went wrong...");
         }
     }
 
