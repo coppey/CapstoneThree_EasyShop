@@ -29,8 +29,9 @@ EasyShop Lite is a simplified Ecommerce webstore designed for easy interaction w
 - While they can be the buttons can be interacted with, the logic to make it work is not there.
 ---
 
-## Interesting Code - **Dynamic Filtering**
-The **Dynamic Filtering** functionality allows users to narrow down product choices seamlessly by combining multiple criteria like category, price, and color.
+## Interesting Code - 
+The request mapping was fun 
+![img_1.png](img_1.png)
 
 ### Querying and Testing
 In order to ensure accurate filtering and effective integration, a comprehensive test suite has been implemented to verify key functionalities.
@@ -45,4 +46,5 @@ Below is an example of the testing process using automated API calls:
 - **Search Products**
 
 
-
+---
+-Project Completed up to phase 2
