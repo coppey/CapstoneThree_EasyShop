@@ -26,7 +26,6 @@ EasyShop Lite is a simplified Ecommerce webstore designed for easy interaction w
 4. **Shopping Cart Integration:**
 5. **Checkout Process:**
 
-- While they can be the buttons can be interacted with, the logic to make it work is not there.
 ---
 
 ## Interesting Code - 
